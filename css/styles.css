@@ -472,9 +472,8 @@ p {
 
 /* #region Footer */
 
-.footer{
+.footer {
     display:flex;
-
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
