@@ -815,6 +815,10 @@ input::placeholder {
 
 @media screen and (min-width: 768px){
 
+    .head-conteiner {
+        max-height: 72px;
+    }
+
     .nav-list {
         display: flex;
         font-weight: 500;
@@ -932,8 +936,8 @@ input::placeholder {
         
     .contacts-list {
         display: block;
-        margin-top: 16px;
-        margin-bottom: 16px;
+        padding-top: 15px ;
+        padding-bottom: 15px;
     }
         
         
@@ -1628,6 +1632,7 @@ input::placeholder {
     .head-conteiner {
         display: flex;
         align-items: center;
+        max-height: 72px;
     }
     
         .logo {
@@ -1828,11 +1833,12 @@ input::placeholder {
         overflow: hidden;
     }
 
-    .values_list {
-        display: flex;
-        gap: 24px;
-        
-    }
+.values_list {
+    display: flex;
+    gap: 24px;
+    width: 1128px;
+    height: 224px;
+}
 
     .antenna {
         display: flex;
