@@ -789,7 +789,6 @@ input::placeholder {
 
 .mobile-menu {
     display: block;
-    align-items: center;
     background-color: #FFFFFF;
     position: fixed;
     top:0;
@@ -819,6 +818,18 @@ input::placeholder {
 
 .mobile-close-btn {
     fill: #2E2F42;
+}
+
+.menu-nav {
+    margin-top: 48px;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list-menu {
+    display: block;
+    box-sizing: border-box;
+    gap: 40px;
 }
 
 
