@@ -1288,6 +1288,7 @@ input::placeholder {
         display: flex;
         flex-wrap: wrap;
         padding-left: 92px;
+        padding-right: 148px;
     }
 
 
