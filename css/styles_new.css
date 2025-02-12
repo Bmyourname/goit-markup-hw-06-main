@@ -36,6 +36,12 @@ ol {
         padding-left: 15px;
     }
 }
+
+@media (min-resolution: 192dpi) {
+    .box {
+        background-image: url(./images/bg2x);
+    }
+}
     
 
 
